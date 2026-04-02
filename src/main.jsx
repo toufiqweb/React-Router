@@ -9,6 +9,7 @@ import Root from "./components/Root/Root.jsx";
 import Home from "./components/Home/Home.jsx";
 import Blogs from "./components/Blogs/Blogs.jsx";
 import Settings from "./components/Settings/Settings.jsx";
+import About from "./components/About/About.jsx";
 
 const router = createBrowserRouter([
   // {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "settings", Component: Settings },
       { path: "blogs", Component: Blogs },
+      {path : "about" , Component : About}
     ],
   },
 ]);
