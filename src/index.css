@@ -1,22 +1,18 @@
 * {
   text-align: center;
- width: 100%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .root-main {
   display: flex;
   gap: 40px;
- 
 }
 
 .navbar {
   background: gray;
   padding: 30px;
+  margin-bottom: 20px;
 }
-.navbar ul  {
+.navbar ul {
   display: flex;
   gap: 20px;
   justify-items: center;
@@ -30,29 +26,44 @@
 .about {
   background: rgba(255, 0, 0, 0.301);
   padding: 100px;
+  width: 100%;
 }
 .home {
   background: rgba(255, 238, 0, 0.301);
   padding: 100px;
+  width: 100%;
 }
 .settings {
   background: rgba(0, 255, 13, 0.301);
   padding: 100px;
+  width: 100%;
 }
 .blogs {
   background: rgba(38, 0, 255, 0.301);
   padding: 100px;
+  width: 100%;
 }
 
 .sideBar {
   background: rgba(255, 0, 234, 0.301);
   padding: 100px;
-   width: 100%;
+  width: 30%;
 }
-.sideBar ul {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  
-  text-decoration: none;
+.user {
+  background: rgba(0, 217, 255, 0.753);
+  padding: 100px;
+  width: 100%;
+}
+.user2 {
+  background: rgb(25, 0, 255);
+  padding: 100px;
+  color: white;
+  width: 100%;
+}
+.footer {
+  background: rgba(52, 56, 56, 0.753);
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  color: wheat;
 }
