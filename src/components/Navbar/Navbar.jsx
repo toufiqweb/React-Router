@@ -23,6 +23,7 @@ const Navbar = () => {
         <NavLink to="/settings">Settings</NavLink>
         <NavLink to="/users">User</NavLink>
         <NavLink to="/user2">User2</NavLink>
+        <NavLink to="/posts">Posts</NavLink>
       </ul>
 
 
