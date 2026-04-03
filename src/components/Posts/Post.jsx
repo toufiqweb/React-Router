@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const Post = ({ post }) => {
+  
+  const navigate = useNavigate()
+
   const postStyle = {
     border: "2px solid red",
     padding: "10px",
@@ -12,6 +15,7 @@ const Post = ({ post }) => {
     <div style={postStyle}>
       <h3>{post.title}</h3>
       <Link to={`/posts/${post.id}`}><button>See detail</button></Link>
+      <button onClick={()=> navigate(`/posts/${post.id}`)}> See Detail for : {post.id} </button>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useParams } from "react-router";
 
 const UserDescription = () => {
   const user = useLoaderData();
@@ -11,12 +11,18 @@ const UserDescription = () => {
     company: { name: companyName, catchPhrase, bs },
   } = user;
 
+  const {userId} = useParams()
+  // const params = useParams()
+  // console.log(params);
+  console.log(userId);
+  
+  
+
   const userStyle = {
     border: "2px solid green",
     padding: "10px",
     borderRadius: "8px",
     marginBottom: "15px",
-   
   };
   return (
     <div style={userStyle}>
